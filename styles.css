@@ -1,0 +1,40 @@
+* { 
+	font-family: Verdana, sans-serif;
+}
+
+
+.container {
+	background: lightblue;
+	width: 80%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 10px 20px;
+	text-align: center;
+}
+
+
+/* HEADER */
+h1 {
+	font-size: 2em;
+}
+
+/* MENU */
+
+ul.menu {
+	list-style: none;
+}
+
+ul.menu a {
+	color: black;
+	text-decoration: none;
+}
+
+ul.menu a:hover {
+	color: orange;
+}
+
+
+
+
+
+
