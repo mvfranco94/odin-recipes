@@ -6,10 +6,12 @@
 
 body {
 	height: 100vh;
+	background: lightblue;
 }
 
 .container {
-	background: lightblue;
+	margin: 0 auto;
+	background: CornflowerBlue;
 	width: 80%;
 	height: 100vh;
 	max-width: 1200px;
