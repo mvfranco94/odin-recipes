@@ -21,23 +21,30 @@ body {
 /* HEADER */
 h1 {
 	font-size: 2em;
+	text-align: center;
 }
 
-/* MENU */
-ul {
-	list-style: none;
-}
 /* CARD */
 .card {
+	display: inline-block;
 	background-color: #DDD;
 	padding: 10px 5px;
-	margin: 10px auto;
-	max-width: 350px;
+	height: 220px;
+	width: 350px;
 	border-radius: 20px;
 	box-shadow: 5px 5px rgba(0, 0, 0, .5);
+	text-align: center;
+	margin: 10px;
 }
 
 .card img {
 	width: 100%;
-	height: auto;
+	height: 200px;
+	object-fit: cover;
+}
+
+.card a {
+	text-decoration: none;
+	height: 100%;
+	color: black;
 }
