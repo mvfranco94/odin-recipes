@@ -1,0 +1,20 @@
+body {
+  background-color: #fd5;
+  font-family: Verdana, sans-serif;
+  font-size: 24px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 48px;
+}
+
+/* Main Page */
+.recipes {
+  font-size: 24px;
+}
+
+/* Recipe */
+h2 {
+  font-size: 40px;
+}
