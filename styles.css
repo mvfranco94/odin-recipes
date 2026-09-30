@@ -1,0 +1,43 @@
+/* RESET */
+html {
+  font-family: Georgia, 'Times New Roman', sans-serif;
+  box-sizing: border-box;
+  background: #fde889;
+}
+
+*,
+*::before,
+*::after 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/* index.html */
+h1 {
+  text-align: center;
+  color: #ca97eb;
+}
+
+ul.nav {
+  background-color: #ca97eb;
+  list-style: none;
+}
+
+ul.nav a {
+  display: block;
+  text-decoration: none;
+  color: #fdf7db;
+  border: 1px solid #fdf7db;
+  padding: 12px;
+}
+
+ul.nav a:hover {
+  background-color: #a668d8;
+}
+
+
+
+
+
