@@ -14,11 +14,26 @@ html {
   box-sizing: inherit;
 }
 
-/* index.html */
-h1 {
-  text-align: center;
-  color: #ca97eb;
+h1, h2, h3 {
+  color: #a668d8;
+  margin-bottom: 16px;
 }
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+p, .list li {
+  font-size: 25px;
+  margin-bottom: 16px;
+}
+/* index.html */
 
 ul.nav {
   background-color: #ca97eb;
@@ -37,6 +52,34 @@ ul.nav a:hover {
   background-color: #a668d8;
 }
 
+/* Recipes */
+body.container {
+  padding: 16px;
+}
+
+.home {
+  text-align: right;
+  display: block;
+  margin-left: auto;
+  font-size: 24px;
+  padding: 20px;
+  width: 150px;
+
+}
+
+.home::before {
+  display: inline-block; 
+  content: "←";
+  padding-right: 5px;
+}
+
+.img.preview {
+  border: 5px solid #a668d8;
+}
+
+ul.list li, ol.list li{
+  margin-left: 20px;
+}
 
 
 
